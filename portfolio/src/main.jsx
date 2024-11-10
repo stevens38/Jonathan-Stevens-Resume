@@ -4,11 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 import App from './App.jsx'
 
-import ErrorPage from './ErrorPage.jsx'
-import AboutMe from './aboutMe.jsx'
-import ResumePage from './ResumePage.jsx'
-import ProjectsPage from './ProjectsPage.jsx'
-import ContactPage from './ContactPage.jsx'
+import ErrorPage from './pages/ErrorPage.jsx'
+import AboutMe from './pages/AboutMe.jsx'
+import ResumePage from './pages/Resume.jsx'
+import Portfolio from './pages/Portfolio.jsx'
+import ContactPage from './pages/contact.jsx'
 import React from 'react';
 
 const router = createBrowserRouter([
@@ -26,8 +26,8 @@ const router = createBrowserRouter([
         element: <ResumePage />,
       },
       {
-        path: '/projects',
-        element: <ProjectsPage />,
+        path: '/portfolio',
+        element: <Portfolio />,
       },
       {
         path: '/contact',
