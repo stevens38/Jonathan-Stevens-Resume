@@ -12,7 +12,21 @@ header h1 {
   margin: 0;
 }
 
-main {
-  background-color: grey;
-  padding: 20px 40px;
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.Jonathan {
+  width: 40%;
+  margin: 0 20px 0 0;
+}
+.me {
+  width: 100%;
+  margin: 20px 0 0 0;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
