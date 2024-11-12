@@ -1,12 +1,23 @@
-
-
+import React from "react";
+import Project from "../components/Project.jsx";
+import "../styles/portfolio.css";
+const projects = [
+    { title: "Weather Dashboard", image: "src/assets/dogepic.webp", url:"" },
+    { title: "Employee Tracker", image: "src/assets/dogepic.webp", url:"" },
+    { title: "README Generator", image: "src/assets/dogepic.webp", url:"" },
+    { title: "Vacation Calculator", image: "src/assets/dogepic.webp", url:"" },
+    { title: "Vehicle Builder", image: "src/assets/dogepic.webp", url:"" },
+    { title: "React Portfolio", image: "src/assets/dogepic.webp", url:"" },
+];
 export default function Portfolio() {
     return (
-        <div>
-        <h1>Portfolio</h1>
-        <p> 
-            <strong>Email:</strong>
-        </p>
+        <div class='port'>
+            <h1>Portfolio</h1>
+            <div className="portfolio-container">
+                {projects.map((project, index) => (
+                    <Project key={index} title={project.title} image={project.image} url={project.url} />
+                ))}
+            </div>
         </div>
     );
 }
