@@ -2,7 +2,7 @@ import React from "react";
 import Project from "../components/Project.jsx";
 import "../styles/portfolio.css";
 const projects = [
-    { title: "Weather Dashboard", image: "src/assets/dogepic.webp", url:"" },
+    { title: "Weather Dashboard", image: "src/assets/weather app 09-servers-and-apis-homework-demo.png", url:"https://weather-dashboard-dzpc.onrender.com" },
     { title: "Employee Tracker", image: "src/assets/dogepic.webp", url:"" },
     { title: "README Generator", image: "src/assets/dogepic.webp", url:"" },
     { title: "Vacation Calculator", image: "src/assets/dogepic.webp", url:"" },
