@@ -21,6 +21,7 @@ export default function resume() {
                     <li>Express</li>
                     <li>APIs</li>
                     <li>MySQL</li>
+                    <li>MongoDB</li>
                 </ul>
             </div>
         </div>
