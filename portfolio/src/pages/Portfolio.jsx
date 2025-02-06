@@ -8,6 +8,7 @@ const projects = [
     { title: "Vacation Calculator", image: "src/assets/dogepic.webp", url:"" },
     { title: "Vehicle Builder", image: "src/assets/dogepic.webp", url:"" },
     { title: "React Portfolio", image: "src/assets/dogepic.webp", url:"" },
+    // Canadate Search   src/assets/Candidate Search appScreenshot 2024-11-20 193641.png   https://candidate-search-application-3f52.onrender.com
 ];
 export default function Portfolio() {
     return (
@@ -21,3 +22,4 @@ export default function Portfolio() {
         </div>
     );
 }
+

@@ -9,7 +9,7 @@ export default function Footer() {
             <a href="">
                 <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" />
             </a>
-            <a href="">
+            <a href="https://stackoverflow.com/users/29521925/jonathan-stevens">
                 <img src="https://img.icons8.com/color/48/000000/stackoverflow.png" alt="stackoverflow" />
             </a>
 
